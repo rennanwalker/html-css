@@ -1,0 +1,76 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap');
+
+
+
+header{
+    margin: 0px;
+    border: 10px;
+    padding: 0px;
+    text-align:center;
+    border-radius: 10px;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color:#66a566;
+    font-size: 20px;
+    padding: 05px;
+    border: 5px;
+    color: rgb(255, 218, 8);
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(151, 6, 6);
+    border-radius: 6px;
+    width: 800px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin: auto;
+   
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+}
+
+nav > a:hover {
+    background-color: rgb(165, 6, 6);
+    color: rgb(255, 255, 255);
+}
+
+main{
+    background-color: rgba(25, 99, 22, 0.719);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.164);
+    width: 800px;
+    padding: 10px;
+    margin:auto;
+}
+
+
+h2{
+
+    font-family: 'Dancing Script';
+    color: #ffffff; 
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div{
+    color:rgb(255, 218, 8);
+}
+
+p{
+
+    text-align: justify ;
+}

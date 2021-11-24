@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            Recomendado utilizar:
+            16px geralmente é = 1em
+            */
+            font-size: 14px;
+
+            /* weight - widht - height*/
+            /* peso - largura - altura*/
+            
+        }
+
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font (mãozinha)
+
+            tem que SEGUIR A ORDEM ABAIXO:
+            
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'franklin gothic medium', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'franklin gothic medium';
+        }
+
+    </style>
+</head>
+<body>
+  <h1>Trabalhando com Fontes</h1>  
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad eveniet soluta deleniti odit rerum exercitationem sapiente similique tempora veniam dicta, excepturi explicabo cupiditate libero nesciunt voluptatem optio assumenda adipisci est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat voluptatum unde corrupti nulla at consequatur porro ipsa veritatis quaerat hic vitae ex voluptates et optio, exercitationem dicta? Sed, sunt.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta sed doloremque aliquam corrupti mollitia asperiores recusandae omnis, deleniti quo? Asperiores assumenda nobis distinctio alias error nihil! Odio, quasi tempore?</p>
+  <h2>Subtítulo do Exercício</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores tempora officia in delectus facere quidem nesciunt dolor sint voluptas suscipit porro repellendus, cumque blanditiis, quisquam incidunt? Ipsa, aut doloremque?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sunt aliquam ullam repellat rerum totam, aliquid tempora sed velit modi cum molestiae doloremque enim? Nobis eos ratione eius eveniet veritatis?</p>
+</body>
+</html>

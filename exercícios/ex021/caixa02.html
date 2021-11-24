@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{ color: white;
+            font-family:BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgba(204, 19, 19, 0.774);
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(24, 24, 24, 0.411);
+
+        }
+        nav {
+            display: inline;
+            text-align:center;
+            background-color: rgb(133, 56, 56);
+            margin: 10px;
+
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.342);
+            
+        }
+
+        nav > a{ 
+            display: inline-flex;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main{
+            box-shadow: 6px 5px;
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        section > p{
+            font-weight: bolder;
+            font-style: oblique;
+            text-align: center;
+            background-color: white;
+        }
+        
+        article{
+            background-color: rgb(255, 254, 254);
+        }
+
+        article > aside{
+            text-align: justify;
+            background-color: rgba(71, 66, 66, 0.322);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+            padding: 2px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>Café Três Colheres</h1>
+        <nav>
+            <a href="https://www.youtube.com/"target="blank">YouTube</a>
+            <a href="https://www.facebook.com/rennanwalker"target="blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/rennanwalker/"target="blank">Linkedin</a>
+            <a href="https://www.instagram.com/rennanwalker_/"target="blank">Instagram</a>
+            <a href="#"target="blank">Nossa História</a>
+            <a href="#"target="blank">Fale Conosco</a>
+            
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Mais Lidas</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2> Café em alta no 1º Semestre de 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus perferendis fugit itaque voluptates. Iste eligendi velit numquam reprehenderit asperiores quasi aliquam ullam quos aspernatur. Deleniti, dolor tempora! Dignissimos, culpa.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por Rennan Walker</p>
+    </footer>
+    <div id="bola"></div>
+
+    <!-- /*
+
+    nav = navegação
+    header = cabeçalho
+    main = conteúdo principal
+    section = seções dentro do conteúdo
+    article = artigo
+    footer = rodapé
+
+    */-->
+</body>
+</html>
+
+
