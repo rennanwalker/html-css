@@ -1,7 +1,10 @@
 @charset "UTF-08";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap');
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 header{
     margin: 0px;
@@ -24,8 +27,8 @@ body{
 nav {
     text-align: center;
     background-color: rgb(151, 6, 6);
-    border-radius: 6px;
-    width: 800px;
+    border-radius: 6px 0px 6px 0px;
+    width: 1000px;
     padding: 5px;
     margin-bottom: 2px;
     margin: auto;
